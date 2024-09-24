@@ -1,0 +1,189 @@
+@charset "utf-8";
+/* CSS Document */
+*{ scroll-behavior: smooth}
+.font-special{
+	font-family: 'Tai Heritage Pro', serif;
+	font-size: 3rem;
+}
+
+.font-special2{
+	font-family: 'Tai Heritage Pro', serif;
+}
+.logo-font{
+	color: #444444;
+/*background: #FFFFFF;*/
+text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+color: #444444;
+/*background: #FFFFFF;*/
+	
+}
+.bg-tsuot{
+	/* From https://css.glass */
+background: rgba(255, 255, 255, 0.24);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.5px);
+-webkit-backdrop-filter: blur(5.5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.bg-gradient{
+background: #1c92d2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+}
+#hero{
+	height: 100%;
+}
+
+.bg-bluelight {
+  background-color: #f2fcfe;
+}
+.bg-info2 {
+  background-color: #5ec3ef;
+}
+
+
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+ /* Timeline vertical line */
+ul.timeline:before {
+    content: ' ';
+    background: #1c92d2;
+    display: inline-block;
+    position: absolute;
+    left: 16px;
+    width: 4px;
+    height: 100%;
+    z-index: 400;
+    border-radius: 1rem;
+}
+
+li.timeline-item {
+    margin: 20px 0;
+}
+
+/* Timeline item arrow */
+.timeline-arrow {
+    border-top: 0.5rem solid transparent;
+    border-right: 0.5rem solid #1c92d2;
+    border-bottom: 0.5rem solid transparent;
+    display: block;
+    position: absolute;
+    left: 2rem;
+}
+
+/* Timeline item circle marker */
+li.timeline-item::before {
+    content: ' ';
+    background: #1c92d2;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    left: 11px;
+    width: 14px;
+    height: 14px;
+    z-index: 400;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+/*
+body {
+    background: #E8CBC0;
+    background: -webkit-linear-gradient(to right, #E8CBC0, #636FA4);
+    background: linear-gradient(to right, #E8CBC0, #636FA4);
+    min-height: 100vh;
+}
+*/
+
+.text-gray {
+    color: #999;
+}
+
+.cardreview{
+	border: 1px solid #1c92d2;
+	background: white;
+	text-align: center;
+}
+.cardbody{
+	padding-left:15px;
+	padding-right: 15px;
+	background: white;
+}
+.img-review{
+	width:100%;
+	height:auto;
+}
+
+.cardservice{
+	padding-left:15px;
+	padding-right: 15px;
+	border-radius: 0px;
+	border: 1px solid #1c92d2;
+	background: white;
+	text-align: left;
+	margin-top: 25px;
+}
+
+
+.service-icon{
+	padding-left:15px;
+	padding-top:15px;
+	padding-bottom: 15px;
+	width: auto;
+	height:100%;
+}
+
+.cardclient {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+/*  border: 1px solid rgba(0, 0, 0, 0.125);*/
+  border-radius: 0.25rem;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 7px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 0px; /* Add a top margin */
+  margin-bottom: 0px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #1c92d2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
